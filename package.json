@@ -23,10 +23,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page.git"
+    "url": "git+https://github.com/BlackrockDigital/startbootstrap-landing-page.git"
   },
   "dependencies": {
+    "body-parser": "^1.17.2",
     "bootstrap": "^4.0.0-beta",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
     "font-awesome": "4.7.0",
     "jquery": "^3.2.1",
     "popper.js": "^1.11.1"
@@ -34,5 +37,9 @@
   "devDependencies": {
     "browser-sync": "2.18.13",
     "gulp": "^3.9.1"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js"
 }
