@@ -1,0 +1,51 @@
+.devicon-nodejs-plain,
+.devicon-angularjs-plain,
+.devicon-javascript-plain,
+.devicon-atom-original,
+.devicon-git-plain,
+.devicon-github-plain,
+.devicon-gulp-plain,
+.devicon-heroku-original,
+.devicon-html5-plain,
+.devicon-visualstudio-plain,
+.devicon-windows8-original,
+.devicon-css3-plain,
+.devicon-postgresql-plain{
+    font-size: 65px !important;
+}
+.devicon-postgresql-plain {
+    color: rgb(51, 103, 145);
+}
+.devicon-nodejs-plain {
+    color: rgb(83, 158, 67);
+}
+.devicon-angularjs-plain {
+    color: rgb(230, 42, 57);
+}
+.devicon-javascript-plain {
+    color: rgb(240, 219, 79);
+}
+.devicon-atom-original {
+    color: rgb(95, 181, 125);
+}
+.devicon-git-plain {
+    color: rgb(243, 79, 41);
+}
+.devicon-gulp-plain {
+    color: rgb(232, 74, 74);
+}
+.devicon-heroku-original {
+    color: rgb(90, 30, 178);
+}
+.devicon-html5-plain {
+    color: rgb(241, 101, 41);
+}
+.devicon-visualstudio-plain {
+    color: rgb(122, 77, 135);
+}
+.row{
+    max-width: 1055px;
+}
+.devicon-css3-plain {
+    color: rgb(41, 169, 223);
+}
