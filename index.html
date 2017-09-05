@@ -39,7 +39,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#" ng-click="showAboutMe = true" ng-init="showAboutMe = false">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Services</a>
@@ -92,24 +92,60 @@
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
             <h2 class="section-heading">Technologies</h2>
+           
+           <div class="techicons">
             <p class="lead">
-              <i class="devicon-postgresql-plain" title="Postgresql"></i>
-              <!-- ng-mouseenter="showTitle = true" ng-mouseleave="showTitle = false" ng-init="showTitle = false" -->
-              <i class="devicon-nodejs-plain" title="NodeJS"></i>
-              <i class="devicon-angularjs-plain" title="AngularJS"></i>
-              <i class="devicon-javascript-plain" title="JavaScript"></i>
-              <i class="devicon-atom-original" title="Atom"></i>
-              <i class="devicon-git-plain" title="GitBash"></i>
-              <i class="devicon-github-plain" title="GitHub"></i>
-              <i class="devicon-gulp-plain" title="Gulp"></i>
-              <i class="devicon-heroku-original" title="Heroku"></i>
-              <i class="devicon-html5-plain" title="HTML5"></i>
-              <i class="devicon-css3-plain" title="CSS3"></i>              
-              <i class="devicon-visualstudio-plain" title="Visual Studio"></i>
+              <div class="techicon">
+              <i class="devicon-postgresql-plain" title="Postgresql"> </br></i><p>postgres</p>
+              </div>
+              
+              <div class="techicon">
+              <i class="devicon-nodejs-plain" title="NodeJS"></i></br><p>NodeJs</p>
+              </div>
+
+              <div class="techicon">
+              <i class="devicon-angularjs-plain" title="AngularJS"></i></br> <p>Angular</p>
+              </div>
+
+              <div class="techicon">
+              <i class="devicon-javascript-plain" title="JavaScript"></i></br> <p>Javascript</p>
+              </div>
+
+              <div class="techicon">
+              <i class="devicon-atom-original" title="Atom"></i></br> <p>atom</p>
+              </div>
+
+              <div class="techicon">
+              <i class="devicon-git-plain" title="GitBash"></i></br> <p>GitBash</p>
+              </div>
+
+              <div class="techicon">
+              <i class="devicon-github-plain" title="GitHub"></i></br> <p>GitHub</p>
+              </div>
+
+              <div class="techicon">
+              <i class="devicon-gulp-plain" title="Gulp"></i></br> <p>Gulp</p>
+              </div>  
+
+              <div class="techicon">
+              <i class="devicon-heroku-original" title="Heroku"></i></br> <p>Heroku</p>
+              </div>
+
+              <div class="techicon">
+              <i class="devicon-html5-plain" title="HTML5"></i></br> <p>HTML5</p>
+              </div>
+
+              <div class="techicon">
+              <i class="devicon-css3-plain" title="CSS3"></i></br> <p>CSS3</p>
+              </div>
+              
+              <div class="techicon">
+              <i class="devicon-visualstudio-plain" title="Visual Studio"></i></br> <p>Visual Studio</p>
+              </div>
               <!-- <i class="devicon-windows8-original"></i> -->
               
               </p>
-
+            </div>
               <!-- <div ng-show="showTitle">postgres SQL</div> -->
           </div>
           <div class="col-lg-5 mr-auto">
@@ -230,10 +266,14 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
   </body>
+
+  <!-- <div class="aboutMe" ng-show="showAboutMe"> -->
+  <!-- <p>  I am 25 years old. I am from Queen Creek Arizona where all my family is. I moved to Utah to follow my Wife as she went to BYU. I have always wanted to work with computers and build things of my own. I love working with data, and making tables and seeing the information come and be displayed. Im super excited for what I am learning. </br> Someday I want to make my own Artificial Intelligence!</p> -->
+  <!-- </div> -->
 
 </html>

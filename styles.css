@@ -49,3 +49,25 @@
 .devicon-css3-plain {
     color: rgb(41, 169, 223);
 }
+
+.aboutMe {
+    height: 400px;
+    width: 200px;
+    position: absolute;
+    top: 55px;
+    right: 207px;
+    background-color: grey;
+    opacity: .5;
+}
+.techicons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.techicon {
+    width: 25%;
+}
+.img-fluid {
+    margin-top: 105px;
+}
